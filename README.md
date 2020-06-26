@@ -41,6 +41,8 @@
 打开命令行粘贴一键安装脚本：
 
 ```shell
+ibmcloud login -r 地区  #然后填入账号和密码，忽略这一步获取不到api权限
+
 wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCChieh/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
 ```
 
